@@ -4,12 +4,8 @@ A data science project exploring differences in language production between late
 
 ### View the notebook
 
-GitHub's renderer times out on this notebook due to embedded plot images. Use one of these instead:
-
-| Option | Link |
-|---|---|
-| **nbviewer** (recommended — renders online with all outputs) | [Open in nbviewer](https://nbviewer.org/github/lakhi/childes-language-production-analysis/blob/main/lg_production_comparative_analysis_with_outputs_with_classifier.ipynb) |
-| **Static HTML** (download and open locally) | [`notebook_rendered.html`](notebook_rendered.html) |
+If GitHub's renderer doesn't load, open it directly in nbviewer:
+[**Open in nbviewer →**](https://nbviewer.org/github/lakhi/childes-language-production-analysis/blob/main/lg_production_comparative_analysis_with_outputs_with_classifier.ipynb)
 
 > **Note:** Read `final_project_document_akshay_lakhi.pdf` before the notebook — it provides the full theoretical background and methodology rationale. The notebook contains the code, inline comments, and all output tables/figures.
 
@@ -75,7 +71,6 @@ The notebook also includes a **supervised classifier** trained on developmental 
 ```
 .
 ├── lg_production_comparative_analysis_with_outputs_with_classifier.ipynb  # Main analysis notebook
-├── notebook_rendered.html    # Static HTML export (all outputs, viewable offline)
 ├── EllisWeismer.zip          # CHAT (.cha) corpus — used by PyLangAcq
 ├── corpora_for_nltk.zip      # XML corpus — used by NLTK
 ├── final_project_document_akshay_lakhi.pdf  # Full project write-up
